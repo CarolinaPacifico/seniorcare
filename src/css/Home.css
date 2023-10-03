@@ -103,6 +103,7 @@ header > div {
 
 .lista-servicos{
     list-style: initial;
+    padding-left: 20px;
 }
 
 .servicos-bg{

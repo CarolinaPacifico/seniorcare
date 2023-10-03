@@ -1,7 +1,7 @@
 import '../css/perfil.css';
 import fotoperfil from '../img/fotoperfil.png'
 
-function bgLogin() {
+function perfil() {
 
     return (
       
@@ -20,4 +20,4 @@ function bgLogin() {
     )
   }
   
-  export default bgLogin
+  export default perfil

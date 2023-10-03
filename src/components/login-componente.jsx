@@ -11,7 +11,7 @@ function LoginComponente() {
       
         <main className='conteudo-login'>
             <div className="login-tela">
-                <h1>Bem vindo ao <span>Login</span></h1>
+                <h1>Bem vindo ao <span> Login</span></h1>
                 <p>Preencha os dados de login para acessar</p>
                 <form action="" className='formulario'>
                     <label htmlFor="email">Usuário</label>
@@ -19,8 +19,11 @@ function LoginComponente() {
                     <label htmlFor="senha">Senha</label>
                     <input type="password" name="senha" id="senha" placeholder='Insira sua senha aqui'/>
                     <button>Entrar</button>
+                    <br/>
                 </form>
-                <p className=''>Ainda não possui uma conta?<a href="">Sign Up</a></p>
+                <p className=''>Ainda não possui uma conta?<a href="/cadastro">Sign Up</a></p>
+                <br/>
+                
                 <span className='span-ou'>- OU -</span>
             </div>
         </main>

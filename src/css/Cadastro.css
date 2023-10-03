@@ -1,7 +1,7 @@
 .conteudo-cadastro {
     position: relative;
     background: url('../img/bg-login.svg') no-repeat;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-left: 200px;
     height: 100vh;
 }
@@ -23,6 +23,7 @@
 
 .cadastro-tela h1 span{
     color: #6B85DE;
+    /* margin-left: 4px; */
 }
 
 .cadastro-tela p {

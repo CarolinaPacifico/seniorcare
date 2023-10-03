@@ -1,7 +1,21 @@
-h1{
+.conteudo-prestadores {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-prestadores h1{
     display: flex;
     justify-content: center;
     margin: 2.5rem 2.5rem;
+}
+
+.cards-prestadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .card-dentro{
@@ -15,10 +29,11 @@ h1{
     border-radius: 10px;
     box-shadow: 7px 7px 10px rgb(156, 156, 156);
     padding: 10px 10px;
-    max-width: 375px;
+    max-width: 300px;
     text-align: left;
     margin-top: 60px;
 }
-ul{
-    display: flex;
+
+.card-tudo img {
+    max-width: 300px;
 }

@@ -14,9 +14,9 @@ import marta from '../img/marta.png'
 function CardPrestadores() {
 
     return (
-        <div>
+        <div className='conteudo-prestadores'>
             <h1>Prestadores de serviço disponíveis</h1>
-            <ul>
+            <ul className='cards-prestadores'>
                 <li className="card-tudo">
                     <img src={julia} alt="" />
                     <h2>Julia Baltar</h2>
