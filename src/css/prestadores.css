@@ -1,0 +1,24 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 2.5rem;
+}
+
+.card-dentro{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-tudo{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(156, 156, 156);
+    padding: 10px 10px;
+    max-width: 375px;
+    text-align: left;
+    margin-top: 60px;
+}
+ul{
+    display: flex;
+}

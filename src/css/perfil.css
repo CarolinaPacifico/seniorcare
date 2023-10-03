@@ -1,0 +1,15 @@
+h1{
+    color: #304D86;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+}
+
+.btnperfil{
+    color: #ffff;
+    font-weight: bolder;
+    background-color: #304D86;
+}
