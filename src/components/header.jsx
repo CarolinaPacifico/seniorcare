@@ -14,7 +14,7 @@ function Header() {
               <li><a href="">Quem Somos</a></li>
               <li><a href="">Serviços</a></li>
               <li><a href="">Profissionais</a></li>
-              <li><a href="">Contato</a></li>
+              
             </ul>
           </nav>
         </div>

@@ -230,3 +230,9 @@ header > div {
     color: #fff;
     gap: 10px;
 }
+
+.perfil-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}

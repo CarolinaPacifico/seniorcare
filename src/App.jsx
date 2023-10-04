@@ -3,12 +3,11 @@ import Home from './pages/Home';
 import QuemSomos from './pages/Home';
 import Servicos from './pages/Home';
 import Diferencial from './pages/Home';
-import Contato from './pages/Home';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
-import Prestadores from './pages/prestadores';
 import PrestadoresLog from './pages/prestadores-logada'
 import Perfil from './pages/perfil'
+import Contato from './pages/Contato';
 
 //import './App.css'
 
@@ -25,10 +24,9 @@ function App() {
           <Route path="/" element={<QuemSomos/>}/>
           <Route path="/" element={<Servicos/>}/>
           <Route path="/" element={<Diferencial/>}/>
-          <Route path="/" element={<Contato/>}/>
-          <Route path="/prestadores" element={<Prestadores/>}/>
-          <Route path="/prestadores2" element={<PrestadoresLog/>}/>
+          <Route path="/prestadores" element={<PrestadoresLog/>}/>
           <Route path="/perfil" element={<Perfil/>}/>
+          <Route path="/contato" element={<Contato/>}/>
         </Routes>
         </BrowserRouter>
       </div>

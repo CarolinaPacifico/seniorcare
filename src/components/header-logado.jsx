@@ -15,7 +15,7 @@ function HeaderLogado() {
               <li><a href="">Quem Somos</a></li>
               <li><a href="">Serviços</a></li>
               <li><a href="">Diferencial</a></li>
-              <li><a href="">Contato</a></li>
+              <li><a href="/contato">Contato</a></li>
             </ul>
           </nav>
         </div>

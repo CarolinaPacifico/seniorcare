@@ -1,0 +1,13 @@
+
+.conteudo-contato{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(156, 156, 156);
+    padding: 10px 10px;
+    max-width:65rem;
+    text-align: left;
+    margin-top: 60px;
+    align-content: center;
+}
