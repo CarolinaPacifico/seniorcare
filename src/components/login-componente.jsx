@@ -18,7 +18,7 @@ function LoginComponente() {
                     <input type="email" name="email" id="email" placeholder='Insira seu e-mail aqui'/>
                     <label htmlFor="senha">Senha</label>
                     <input type="password" name="senha" id="senha" placeholder='Insira sua senha aqui'/>
-                    <button>Entrar</button>
+                    <button><a href='/homelog'>Entrar</a></button>
                     <br/>
                 </form>
                 <p className=''>Ainda não possui uma conta?<a href="/cadastro">Sign Up</a></p>

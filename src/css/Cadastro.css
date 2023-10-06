@@ -67,3 +67,12 @@
     margin-left: 4px;
     color: #6B85DE;
 }
+
+.conteudo-cadastro a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-cadastro a{
+    color: #fff;
+}

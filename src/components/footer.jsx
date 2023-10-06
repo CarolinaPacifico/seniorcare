@@ -72,7 +72,7 @@ function Footer() {
                                 <a href="/Login">Login</a>
                             </div>
                             <div className="cadastrobtn-footer">
-                                <a href="/Login">Cadastre-se</a> 
+                                <a href="/Cadastro">Cadastre-se</a> 
                             </div>
                         <p>Contato</p>
                     </div>

@@ -1,38 +1,44 @@
+import '../css/planos.css'
+
 function CardPlano() {
 
     return (
-        <div className='conteudo-prestadores'>
-            <h1>Prestadores de serviço disponíveis</h1>
-            <ul className='cards-prestadores'>
-                <li className="card-tudo">
-                    <img src={julia} alt="" />
+        <div className='conteudo-plano'>
+            <h1>Escolha o plano que deseja assinar</h1>
+            <ul className='cards-plano'>
+                <li className="card-tudo-plano">
                     <h2>Plano A</h2>
                     <ul className='card-dentro'>
-                        <li>Enfermeira</li>
-                        <li>34 anos</li>
-                        <li>6 anos de experiência</li>
+                        <li>Recomendação Leve</li>
+                        <li>Não possui nenhum tipo de prioridade na hora da divulgação</li>
+                        <li>Teste 45 dias Grátis</li>
                     </ul>
                     <p>R$60,00</p>
+                    <button className="btn-confirmar"><a href="/login">Confirmar</a></button>
                 </li>
-                <li className="card-tudo">
-                    <h2>Plao B</h2>
+                <li className="card-tudo-plano">
+                    <h2>Plano B</h2>
                     <ul className='card-dentro'>
-                        <li>Cuidador</li>
-                        <li>45 anos</li>
-                        <li>21 anos de experiência</li>
+                        <li>Recomendação Média</li>
+                        <li>Possuem prioridade na divulgação dos serviços</li>
+                        <li>Teste 3 semanas Grátis</li>
                     </ul>
                     <p>R$90,00</p>
+                    <button className="btn-confirmar"><a href="/login">Confirmar</a></button>
                 </li>
-                <li className="card-tudo">
+                <li className="card-tudo-plano">
                     <h2>Plano C</h2>
                     <ul className='card-dentro'>
-                        <li>Auxiliar de enfermagem </li>
-                        <li>35 anos</li>
-                        <li>8 anos de experiência</li>
+                        <li>Recomendação Alta</li>
+                        <li>Possuem prioridade na divulgação dos serviços </li>
+                        <li>É divulgado nas publicidades do nosso aplicativo feitas em outras plataformas</li>
+                        <li>Teste 1 semana Grátis</li>
                     </ul>
                     <p>R$120,00</p>
+                    <button className="btn-confirmar"><a href="/login">Confirmar</a></button>
                 </li>
           </ul>
+          
         </div>
     )
   }

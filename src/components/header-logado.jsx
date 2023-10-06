@@ -8,13 +8,13 @@ function HeaderLogado() {
     return (
       <header>
         <div >
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="/homelog" />
           <nav>
             <ul className='navbar'>
-              <li><a href="">Home</a></li>
-              <li><a href="">Quem Somos</a></li>
-              <li><a href="">Serviços</a></li>
-              <li><a href="">Diferencial</a></li>
+              <li><a href="/homelog">Home</a></li>
+              {/* <li><a href="/homelog">Quem Somos</a></li>
+              <li><a href="/homelog">Serviços</a></li>
+              <li><a href="/homelog">Profissionais</a></li> */}
               <li><a href="/contato">Contato</a></li>
             </ul>
           </nav>

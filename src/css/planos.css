@@ -1,0 +1,69 @@
+.conteudo-plano {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.conteudo-plano h1{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 2.5rem;
+}
+
+.cards-plano {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* .card-dentro{
+    display: flex;
+    flex-direction: column;
+} */
+
+.card-tudo-plano{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #304D86;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(184, 184, 184);
+    padding: 10px 10px;
+    max-width: 300px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.conteudo-plano h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size:x-large;
+}
+
+.conteudo-plano p{
+    display: flex;
+    font-size: 2.2rem;
+    justify-content: center;
+    font-weight: bolder;
+    /* margin: 2.5rem 2.5rem; */
+}
+
+.conteudo-plano a{
+    text-decoration: none;
+    color:#304D86
+}
+
+.btn-confirmar{
+    /* display: flex;
+    align-content: center; */
+    font-size: small;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    border-color: #304D86;
+    border-style:none;
+}

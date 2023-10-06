@@ -6,7 +6,7 @@ import Profissionais from '../components/profissionais'
 import Quemsomos from '../components/quemsomos'
 import Servicos from '../components/servicos'
 
-function Home() {
+function HomeLog() {
 
     return (
       <>
@@ -20,4 +20,4 @@ function Home() {
     )
   }
   
-  export default Home
+  export default HomeLog

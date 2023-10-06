@@ -28,7 +28,7 @@ function CadastroComponente() {
                     // onChange={(e) => setPassword(e.target.value)}
                     // value = {password}
                     />
-                    <button>Entrar</button>
+                    <button className="btn-cadastro"><a href="/planos">Entrar</a></button>
                     {/* {error && <p className="error">{error}</p>} */}
                     <br/>
 
