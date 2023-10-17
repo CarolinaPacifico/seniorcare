@@ -13,8 +13,8 @@ function HeaderLogado() {
             <ul className='navbar'>
               <li><a href="/homelog">Home</a></li>
               {/* <li><a href="/homelog">Quem Somos</a></li>
-              <li><a href="/homelog">Serviços</a></li>
-              <li><a href="/homelog">Profissionais</a></li> */}
+              <li><a href="/homelog">Serviços</a></li> */}
+              <li><a href="/prestadores">Prestadores</a></li>
               <li><a href="/contato">Contato</a></li>
             </ul>
           </nav>

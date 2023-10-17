@@ -21,7 +21,10 @@ function Header() {
         <div className='login'>
            <a href="/login">Login</a>
            <div className='cadastro'>
-            <a href="/cadastro">Cadastre-se</a>
+            <a href="/cadastro">Cadastro Prestador</a>
+           </div>
+           <div className='cadastro'>
+           <a href="/cadastro-cliente">Cadastro Cliente</a>
            </div>
         </div>
       </header>

@@ -5,7 +5,8 @@ import Servicos from './pages/Home';
 import Diferencial from './pages/Home';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
-import PrestadoresLog from './pages/prestadores-logada';
+import CadastroCliente from './pages/CadastroCliente';
+import PrestadoresLog from './pages/Prestadores-logada';
 import Perfil from './pages/perfil'
 import Contato from './pages/Contato';
 import Planos from './pages/Planos';
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login/>}/>
           <Route path="/cadastro" element={<Cadastro/>}/>
+          <Route path="/cadastro-cliente" element={<CadastroCliente/>}/>
           <Route path="/planos" element={<Planos/>}/>
           <Route path="/" element={<Home/>}/>
           <Route path="/" element={<QuemSomos/>}/>

@@ -14,7 +14,7 @@ function perfil() {
         <label>Telefone<input type="number" id="" name="" /></label>
         <label for="story">Experiência</label>
         <textarea id="story" name="story" rows="5" cols="33"></textarea>
-        <button className="btnperfil" type="button">Salvar</button>
+        <button className="btnperfil" type="button">Publicar Perfil</button>
         </div>
       
     )
