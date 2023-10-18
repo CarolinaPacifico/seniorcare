@@ -7,7 +7,7 @@ function CardPlano() {
             <h1>Escolha o plano que deseja assinar</h1>
             <ul className='cards-plano'>
                 <li className="card-tudo-plano">
-                    <h2>Plano A</h2>
+                    <h2>Plano Basic</h2>
                     <ul className='card-dentro'>
                         <li>Recomendação Leve</li>
                         <li>Não possui nenhum tipo de prioridade na hora da divulgação</li>
@@ -17,7 +17,7 @@ function CardPlano() {
                     <button className="btn-confirmar"><a href="/login">Confirmar</a></button>
                 </li>
                 <li className="card-tudo-plano">
-                    <h2>Plano B</h2>
+                    <h2>Plano Standard</h2>
                     <ul className='card-dentro'>
                         <li>Recomendação Média</li>
                         <li>Possuem prioridade na divulgação dos serviços</li>
@@ -27,10 +27,10 @@ function CardPlano() {
                     <button className="btn-confirmar"><a href="/login">Confirmar</a></button>
                 </li>
                 <li className="card-tudo-plano">
-                    <h2>Plano C</h2>
+                    <h2>Plano Premium</h2>
                     <ul className='card-dentro'>
                         <li>Recomendação Alta</li>
-                        <li>Possuem prioridade na divulgação dos serviços </li>
+                        <li>Possuem prioridade na divulgação dos serviços</li>
                         <li>É divulgado nas publicidades do nosso aplicativo feitas em outras plataformas</li>
                         <li>Teste 1 semana Grátis</li>
                     </ul>

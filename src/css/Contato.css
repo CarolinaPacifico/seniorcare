@@ -1,3 +1,12 @@
+.conteudo-contato-bg {
+    background: url('../img/contato-bg.svg') repeat center center;
+    padding: 120px 60px;
+}
+
+.conteudo-contato {
+    background: #fff;
+}
+
 
 .conteudo-contato{
     display: flex;
@@ -5,9 +14,52 @@
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 7px 7px 10px rgb(156, 156, 156);
-    padding: 10px 10px;
-    max-width:65rem;
-    text-align: left;
-    margin-top: 60px;
-    align-content: center;
+    padding: 40px;
+}
+
+.conteudo-contato h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.conteudo-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-contato form label {
+    margin-bottom: 4px;
+    color: #33508A;
+    font-weight: bold;
+}
+
+.conteudo-contato form input,
+.conteudo-contato form textarea {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #33508A;
+    padding: 8px 0;
+}
+
+.conteudo-contato form button {
+    display: block;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    align-self: center;
+}
+
+@media (max-width: 800px) { 
+    .conteudo-contato h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) { 
+    .conteudo-contato h1 {
+        font-size: 24px;
+    }
 }

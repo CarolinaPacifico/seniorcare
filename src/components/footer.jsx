@@ -10,8 +10,7 @@ import '../App.css'
 function Footer() {
 
     return (
-        <nav className='footer'>
-            
+        <footer className='footer'>
             <div className="links-footer">
                 <Link href="/">
                         <img
@@ -78,7 +77,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </nav>
+        </footer>
     )
   }
   

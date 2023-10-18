@@ -21,7 +21,7 @@ function LoginComponente() {
                     <button><a href='/homelog'>Entrar</a></button>
                     <br/>
                 </form>
-                <p className=''>Ainda não possui uma conta?<a href="/cadastro">Sign Up</a></p>
+                <p className=''>Ainda não possui uma conta?<a href="/cadastro-cliente">Sign Up</a></p>
                 <br/>
                 
                 <span className='span-ou'>- OU -</span>
