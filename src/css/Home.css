@@ -128,6 +128,10 @@ header > div {
     align-items: center;
 }
 
+.conteudo-profissionais {
+    padding-bottom: 120px;
+}
+
 .profissionais-bg{
     background-color: #F3F1EA;
     padding: 20px;
