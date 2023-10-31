@@ -1,35 +1,8 @@
 import '../css/Cadastro.css'
 import '../css/global.css'
 
-import React, { useState } from 'react';
-import { db, auth } from './firebase/config'
-import 'firebase/auth'
-import { async } from '@firebase/util';
-import { createUserWithEmailAndPassword } from 'firebase/auth';
-
-
 function CadastroComponente() {
 
-    const [email, setEmail] = useState();
-    const [senha, setSenha] = useState();
-
-    const [msg, setmsg] = useState();
-
-    async function cadastrar(){
-        await createUserWithEmailAndPassword(auth, email, senha)
-            .then(resposta => {
-                setmsg('sucesso')
-            })
-            .then(() =>{
-                setEmail('');
-                setSenha('');
-            })
-            .catch(erro => {
-                setmsg('erro')
-                console.log(erro);
-            })
-    }
-    
     return (
       
         <main className='conteudo-cadastro'>
@@ -39,29 +12,24 @@ function CadastroComponente() {
                 <form action="" className='formulario'>
                     <label htmlFor="email">Usuário</label>
                     <input 
-                    onChangeCapture={(e) => setEmail(e.target.value)}
-                    value={email}
                     type="email" 
                     name="email" 
                     id="email" 
                     placeholder='Insira seu e-mail aqui'
+                    // onChange={(e) => setEmail(e.target.value)}
+                    // value = {email}
                     />
                     <label htmlFor="senha">Senha</label>
-                    <input
-                    onChange={(e) => setSenha(e.target.value)} 
-                    value={senha}
+                    <input 
                     type="password" 
                     name="senha" 
                     id="senha" 
                     placeholder='Insira sua senha aqui'
+                    // onChange={(e) => setPassword(e.target.value)}
+                    // value = {password}
                     />
-                    
-                    {msg == 'sucesso' && <span>Cadastro realizado com sucesso!</span>}
-                    {msg == 'erro' && <span>Não foi possível realizar o cadastro.</span>}
-
-
-                    <button onClick={cadastrar} className="btn-cadastro"><a href="/login">Entrar</a></button>
-                    
+                    <button className="btn-cadastro"><a href="/login">Entrar</a></button>
+                    {/* {error && <p className="error">{error}</p>} */}
                     <br/>
 
                 </form>
