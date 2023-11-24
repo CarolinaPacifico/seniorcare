@@ -1,0 +1,68 @@
+.conteudo-plano {
+    padding: 117px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #bbcae9;
+}
+
+.cards-plano {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.card-tudo-plano{
+    background-color: #304D86;
+    box-shadow: 7px 7px 10px rgb(18, 38, 83);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+    margin-top: 60px;
+    height: 400px;
+}
+.conteudo-plano h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    color: #fff;
+}
+
+.card-dentro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 160px;
+    margin-bottom: 20px;
+    
+}
+
+.conteudo-plano p{
+    display: flex;
+    font-size: 2.2rem;
+    justify-content: center;
+    font-weight: bolder;
+    /* margin: 2.5rem 2.5rem; */
+}
+
+.conteudo-plano a{
+    text-decoration: none;
+    color:#304D86
+}
+
+.btn-confirmar{
+    /* display: flex;
+    align-content: center; */
+    font-size: small;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    border-color: #304D86;
+    border-style:none;
+}

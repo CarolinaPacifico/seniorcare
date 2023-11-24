@@ -1,0 +1,78 @@
+.conteudo-cadastro {
+    position: relative;
+    background: url('../img/bg-login.svg') no-repeat;
+    padding-top: 120px;
+    padding-left: 200px;
+    height: 100vh;
+}
+
+.cadastro-tela{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(156, 156, 156);
+    padding: 40px 20px;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cadastro-tela h1 {
+    color: #595959;
+    margin-bottom: 20px;
+}
+
+.cadastro-tela h1 span{
+    color: #6B85DE;
+    /* margin-left: 4px; */
+}
+
+.cadastro-tela p {
+    color: #808080;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.formulario label {
+    color: #333333;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.formulario input {
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 8px;
+}
+
+.formulario input:focus {
+    border: none;
+}
+
+.formulario button {
+    border: none;
+    background: #6B85DE;
+    border-radius: 5px;
+    margin-top: 60px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cadastro-tela p a {
+    margin-left: 4px;
+    color: #6B85DE;
+}
+
+.conteudo-cadastro a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-cadastro a{
+    color: #fff;
+}

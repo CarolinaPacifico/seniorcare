@@ -1,0 +1,40 @@
+.conteudo-prestadores {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-prestadores h1{
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 2.5rem;
+}
+
+.cards-prestadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.card-dentro{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-tudo{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(156, 156, 156);
+    padding: 10px 10px;
+    max-width: 300px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.card-tudo img {
+    max-width: 300px;
+}
